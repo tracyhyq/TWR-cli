@@ -1,0 +1,41 @@
+{
+  "name": "twr-cli",
+  "version": "1.0.1",
+  "description": "基于commander的脚手架，骨架仓库为ts-react-starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracyhyq/TWR-cli.git"
+  },
+  "bin": {
+    "twr": "./bin/twr.js"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "react",
+    "cli"
+  ],
+  "author": "tracyqiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tracyhyq/TWR-cli/issues"
+  },
+  "homepage": "https://github.com/tracyhyq/TWR-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^3.0.0",
+    "download-git-repo": "^2.0.0",
+    "glob": "^7.1.4",
+    "inquirer": "^7.0.0",
+    "latest-version": "^5.1.0",
+    "log-symbols": "^3.0.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^3.4.0"
+  }
+}
